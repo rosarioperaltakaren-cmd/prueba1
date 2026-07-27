@@ -78,11 +78,11 @@
     "price": 13,
     "unit": "kg",
     "description": "Cebolla blanca de sabor fuerte y textura crujiente. Ideal para guisos y comidas cotidianas.",
-    "image": "https://images.unsplash.com/photo-1508747703726-0f8497b7c3b8?w=400&h=300&fit=crop"
-  },
-  {
-    "id": 10,
-    "name": "Espinaca",
+"image": "https://images.unsplash.com/photo-1668080319913-a9d378495096?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 10,
+      "name": "Espinaca",
     "category": "verduras",
     "price": 17,
     "unit": "manojo",
@@ -105,7 +105,7 @@
     "price": 19,
     "unit": "pieza",
     "description": "Coliflor blanca y firme, libre de químicos. Ideal para purés, arroz de coliflor y gratinados.",
-    "image": "https://images.unsplash.com/photo-1568584711175-7aa1c3ec4a49?w=400&h=300&fit=crop"
+    "image": "https://images.unsplash.com/photo-1638901592594-04adaef61b80?w=400&h=300&fit=crop"
   },
   {
     "id": 13,
