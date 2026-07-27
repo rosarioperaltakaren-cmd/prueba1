@@ -33,11 +33,11 @@
     "price": 14,
     "unit": "manojo",
     "description": "Apio fresco y crujiente, cultivado con métodos tradicionales. Ideal para sopas y jugos.",
-    "image": "https://images.unsplash.com/photo-1622205313262-d8f2c0c1b3c8?w=400&h=300&fit=crop"
-  },
-  {
-    "id": 5,
-    "name": "Alfalfa",
+"image": "https://images.unsplash.com/photo-1580391564590-aeca65c5e2d3?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 5,
+      "name": "Alfalfa",
     "category": "verduras",
     "price": 10,
     "unit": "manojo",
