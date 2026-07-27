@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroMarket - Productos del Campo a tu Mesa</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌿</span>
+        AgroMarket
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">☰</button>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="catalog.html">Catálogo</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li>
+            <a href="cart.html" class="cart-link">
+              🛒 Carrito
+              <span class="cart-badge" id="cartBadge">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Del campo a tu mesa</h1>
+        <p>Productos frescos, cultivados con amor y dedicación. Llevamos lo mejor de nuestra cosecha directamente a tu hogar.</p>
+        <a href="catalog.html" class="btn btn-primary">Ver nuestros productos</a>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="container">
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-icon">🌱</div>
+            <h3>100% Natural</h3>
+            <p>Cultivamos sin pesticidas ni químicos dañinos. Productos limpios y saludables.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>Entrega Directa</h3>
+            <p>De nuestra granja a tu puerta. Frescura garantizada en cada entrega.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">❤️</div>
+            <h3>Amor por el Campo</h3>
+            <p>Detrás de cada producto hay una familia que cuida la tierra con pasión.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" style="padding-top: 0;">
+      <div class="container">
+        <h2 class="section-title">Productos Destacados</h2>
+        <p class="section-subtitle">Lo más fresco de nuestra cosecha</p>
+        <div class="products-grid" id="featuredProducts"></div>
+        <div style="text-align: center; margin-top: 32px;">
+          <a href="catalog.html" class="btn btn-outline">Ver catálogo completo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>🌿 AgroMarket</h4>
+          <p>Productos frescos del campo directamente a tu mesa. Calidad y confianza desde 2020.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces Rápidos</h4>
+          <a href="catalog.html">Catálogo</a><br>
+          <a href="about.html">Sobre Nosotros</a><br>
+          <a href="contact.html">Contacto</a><br>
+          <a href="cart.html">Carrito</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>📞 (555) 123-4567</p>
+          <p>✉️ info@agromarket.com</p>
+          <p>📍 Carretera Principal Km 5, Campo Verde</p>
+        </div>
+        <div class="footer-col">
+          <h4>Horario</h4>
+          <p>Lunes a Sábado: 8:00 - 18:00</p>
+          <p>Domingo: 8:00 - 14:00</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AgroMarket. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="notification" id="notification"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

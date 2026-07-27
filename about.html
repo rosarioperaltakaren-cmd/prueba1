@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros - AgroMarket</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌿</span>
+        AgroMarket
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">☰</button>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalog.html">Catálogo</a></li>
+          <li><a href="about.html" class="active">Nosotros</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li>
+            <a href="cart.html" class="cart-link">
+              🛒 Carrito
+              <span class="cart-badge" id="cartBadge">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumb">
+      <div class="container">
+        <a href="index.html">Inicio</a>
+        <span>/</span>
+        <span>Sobre Nosotros</span>
+      </div>
+    </div>
+
+    <section class="about-content">
+      <div class="container" style="display: contents;">
+        <div class="about-text">
+          <h1>Nuestra Historia</h1>
+          <p>
+            AgroMarket nació del sueño de una familia de agricultores que quería llevar sus productos frescos
+            directamente a las mesas de las personas. Desde 2020, cultivamos la tierra con respeto y dedicación,
+            usando métodos tradicionales que preservan el sabor y la calidad de cada cosecha.
+          </p>
+          <p>
+            Creemos en la agricultura sostenible y en el trato justo tanto para quienes cultivan como para quienes
+            consumen. Cada producto que ofrecemos es seleccionado cuidadosamente para garantizar la mejor experiencia.
+          </p>
+          <p>
+            Hoy, gracias a la confianza de nuestros clientes, seguimos creciendo y llevando lo mejor del campo
+            a más hogares cada día.
+          </p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=400&fit=crop" alt="Campo agrícola">
+      </div>
+    </section>
+
+    <section class="section-padding" style="padding-top: 0;">
+      <div class="container">
+        <h2 class="section-title">Nuestros Valores</h2>
+        <div class="about-values">
+          <div class="value-item">
+            <div class="value-icon">🌎</div>
+            <h3>Sostenibilidad</h3>
+            <p>Cuidamos el medio ambiente con prácticas agrícolas responsables.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">🤝</div>
+            <h3>Confianza</h3>
+            <p>Transparencia en cada paso, del campo a tu mesa.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">⭐</div>
+            <h3>Calidad</h3>
+            <p>Solo ofrecemos productos que nosotros mismos consumiríamos.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">❤️</div>
+            <h3>Pasión</h3>
+            <p>Amamos lo que hacemos y se refleja en cada producto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>🌿 AgroMarket</h4>
+          <p>Productos frescos del campo directamente a tu mesa. Calidad y confianza desde 2020.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces Rápidos</h4>
+          <a href="catalog.html">Catálogo</a><br>
+          <a href="about.html">Sobre Nosotros</a><br>
+          <a href="contact.html">Contacto</a><br>
+          <a href="cart.html">Carrito</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>📞 (555) 123-4567</p>
+          <p>✉️ info@agromarket.com</p>
+          <p>📍 Carretera Principal Km 5, Campo Verde</p>
+        </div>
+        <div class="footer-col">
+          <h4>Horario</h4>
+          <p>Lunes a Sábado: 8:00 - 18:00</p>
+          <p>Domingo: 8:00 - 14:00</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AgroMarket. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="notification" id="notification"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

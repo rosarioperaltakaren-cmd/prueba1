@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - AgroMarket</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌿</span>
+        AgroMarket
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">☰</button>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalog.html">Catálogo</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="contact.html" class="active">Contacto</a></li>
+          <li>
+            <a href="cart.html" class="cart-link">
+              🛒 Carrito
+              <span class="cart-badge" id="cartBadge">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumb">
+      <div class="container">
+        <a href="index.html">Inicio</a>
+        <span>/</span>
+        <span>Contacto</span>
+      </div>
+    </div>
+
+    <section class="contact-page">
+      <div class="container">
+        <h1>Contáctanos</h1>
+        <p class="section-subtitle">Estamos aquí para ayudarte</p>
+
+        <div class="contact-grid">
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" placeholder="tu@correo.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Asunto</label>
+              <input type="text" id="subject" placeholder="¿Sobre qué deseas contactarnos?">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <button class="btn btn-primary" id="contactSubmit">Enviar mensaje</button>
+          </div>
+
+          <div class="contact-info-cards">
+            <div class="contact-info-card">
+              <div class="info-icon">📍</div>
+              <div>
+                <h3>Dirección</h3>
+                <p>Carretera Principal Km 5, Campo Verde, CP 50000</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="info-icon">📞</div>
+              <div>
+                <h3>Teléfono</h3>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="info-icon">✉️</div>
+              <div>
+                <h3>Correo Electrónico</h3>
+                <p>info@agromarket.com</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="info-icon">🕐</div>
+              <div>
+                <h3>Horario de Atención</h3>
+                <p>Lun - Sáb: 8:00 - 18:00<br>Dom: 8:00 - 14:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>🌿 AgroMarket</h4>
+          <p>Productos frescos del campo directamente a tu mesa. Calidad y confianza desde 2020.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces Rápidos</h4>
+          <a href="catalog.html">Catálogo</a><br>
+          <a href="about.html">Sobre Nosotros</a><br>
+          <a href="contact.html">Contacto</a><br>
+          <a href="cart.html">Carrito</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>📞 (555) 123-4567</p>
+          <p>✉️ info@agromarket.com</p>
+          <p>📍 Carretera Principal Km 5, Campo Verde</p>
+        </div>
+        <div class="footer-col">
+          <h4>Horario</h4>
+          <p>Lunes a Sábado: 8:00 - 18:00</p>
+          <p>Domingo: 8:00 - 14:00</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AgroMarket. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="notification" id="notification"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Lechuga Fresca",
+    "category": "verduras",
+    "price": 15,
+    "unit": "pieza",
+    "description": "Lechuga cultivada de forma natural, libre de pesticidas. Crujiente y fresca, ideal para ensaladas.",
+    "image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Zanahoria",
+    "category": "verduras",
+    "price": 12,
+    "unit": "kg",
+    "description": "Zanahorias dulces y jugosas, cosechadas en su punto óptimo. Ricas en vitamina A.",
+    "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Col Repollo",
+    "category": "verduras",
+    "price": 18,
+    "unit": "pieza",
+    "description": "Col repollo de hoja firme y sabor suave. Perfecta para ensaladas, guisos y fermentados.",
+    "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Apio",
+    "category": "verduras",
+    "price": 14,
+    "unit": "manojo",
+    "description": "Apio fresco y crujiente, cultivado con métodos tradicionales. Ideal para sopas y jugos.",
+    "image": "https://images.unsplash.com/photo-1622205313262-d8f2c0c1b3c8?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Alfalfa",
+    "category": "verduras",
+    "price": 10,
+    "unit": "manojo",
+    "description": "Alfalfa tierna y nutritiva, ideal para germinados y ensaladas. Rica en vitaminas y minerales.",
+    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Maíz Dulce",
+    "category": "granos",
+    "price": 20,
+    "unit": "kg",
+    "description": "Maíz dulce recién cosechado, perfecto para asar, hervir o preparar esquites.",
+    "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Papa",
+    "category": "tubérculos",
+    "price": 16,
+    "unit": "kg",
+    "description": "Papas de cultivo limpio, ideales para hornear, freír o hervir. Textura firme y sabor auténtico.",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Tomate Rojo",
+    "category": "verduras",
+    "price": 22,
+    "unit": "kg",
+    "description": "Tomates jugosos cultivados al sol, con sabor intenso. Perfectos para salsas y ensaladas.",
+    "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Cebolla Blanca",
+    "category": "verduras",
+    "price": 13,
+    "unit": "kg",
+    "description": "Cebolla blanca de sabor fuerte y textura crujiente. Ideal para guisos y comidas cotidianas.",
+    "image": "https://images.unsplash.com/photo-1508747703726-0f8497b7c3b8?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "Espinaca",
+    "category": "verduras",
+    "price": 17,
+    "unit": "manojo",
+    "description": "Espinaca fresca de hoja verde intensa. Rica en hierro y antioxidantes. Ideal para ensaladas y smoothies.",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "Brócoli",
+    "category": "verduras",
+    "price": 19,
+    "unit": "pieza",
+    "description": "Brócoli cultivado orgánicamente, rico en fibra y vitaminas C y K. Perfecto al vapor o salteado.",
+    "image": "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Coliflor",
+    "category": "verduras",
+    "price": 19,
+    "unit": "pieza",
+    "description": "Coliflor blanca y firme, libre de químicos. Ideal para purés, arroz de coliflor y gratinados.",
+    "image": "https://images.unsplash.com/photo-1568584711175-7aa1c3ec4a49?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 13,
+    "name": "Huevos de Campo",
+    "category": "huevos",
+    "price": 35,
+    "unit": "docena",
+    "description": "Huevos de gallinas criadas en libertad, alimentadas con granos naturales. Yema de color naranja intenso.",
+    "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 14,
+    "name": "Gallina de Corral",
+    "category": "carnes",
+    "price": 120,
+    "unit": "pieza",
+    "description": "Gallina criada de forma natural, alimentada con maíz y pastoreo libre. Carne firme y sabrosa.",
+    "image": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 15,
+    "name": "Pollo Entero",
+    "category": "carnes",
+    "price": 95,
+    "unit": "pieza",
+    "description": "Pollo de corral, criado sin hormonas ni antibióticos. Carne tierna y con sabor auténtico.",
+    "image": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=400&h=300&fit=crop"
+  }
+]
